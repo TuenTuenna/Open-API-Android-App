@@ -55,7 +55,18 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
+
+    // core espresso
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // recyclerview actions, drawer actions for espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
+
+    // webview espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-web:3.2.0'
+
+    // background task synchronization espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.2.0'
 
     // -- Retrofit2
     def retrofit2_version = "2.6.0"
